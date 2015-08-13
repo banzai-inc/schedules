@@ -13,6 +13,12 @@ Dataclip for sponsor ids: "Exclusive Sponsors"
 4. Update holiday list.
 5. Evaluate the file in the REPL.
 5. Run the `write-sql` command shown in the comments.
+6. Delete all schedules in sponsors-production database: `delete from sponsor_schedules;`
+7. Upload new schedules:
+
+```
+heroku pg:psql --app sponsors-production < /tmp/schedules.sql
+```
 
 ## License
 
