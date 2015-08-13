@@ -7,7 +7,7 @@ Small Clojure library (script, rather) for auto-generating a SQL printout for al
 1. Open `./src/core.clj`
 2. Update sponsor ids. Sponsor ids are a list of exclusive sponsors (and perhaps other criteria):
 
-Dataclip for sponsor ids: https://dataclips.heroku.com/guuntovkecrfcvbyaqhsrbeapiqa-Exclusive-Sponsors
+Dataclip for sponsor ids: "Exclusive Sponsors"
 
 3. Update p-value.
 4. Update holiday list.
